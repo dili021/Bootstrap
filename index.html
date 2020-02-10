@@ -7,16 +7,163 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Bootstrap/styles/reset.css">
+    <link rel="stylesheet" href="Bootstrap/styles/style.css">
+    <script src="https://kit.fontawesome.com/f02bbd63cf.js" crossorigin="anonymous"></script>
     <title>Newsweek clone</title>
 </head>
 
 <body>
+    <div class="container-fluid ">
 
-    <div class="container-fluid">
+        <!-- header -->
+        <header class="row flex-nowrap justify-content-between align-items-end">
+            <div class="col-2 date p-2 d-none d-lg-block">Mon, Feb 10, 2020
+            </div>
+            <div class="header-logo col-3 col-sm-4 col-md-5 p-0">
+                <img class="logo" src="Bootstrap/assets/newsweek-logo.png" alt="logo">
+            </div>
+            <div class="col-7 col-sm-5 col-md-4 col-xl-4 row m-0 p-2 flex-nowrap justify-content-end">
+                <a class="sign-in text-center p-0 font-weight-bold col-5 col-md-4" href="#">SIGN
+                    IN
+                </a>
+                <a class="subscribe text-center px-1" href="#">
+                    SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                </a>
+                <i class="fas fa-bars fa-2x d-lg-none px-1"></i>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- nav -->
+        <nav class="py-2 d-none d-lg-block p-0">
+            <ul class="navbar flex-nowrap jc-b font-weight-bold">
+                <li><a class="text-nowrap pr-1" href="#">U.S.</a</li> <li><a class="pr-2" href="#">World</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Business</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Tech & Science</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Culture</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Newsgeek</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Sports</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Health</a></li>
+                <li><a class="text-nowrap pr-1" href="#">The Debate</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Vantage</a></li>
+                <li><a class="text-nowrap pr-1" href="#">Weather</a></li>
+                <li class="text-nowrap search-box"><input type="text"><i class="fas fa-search"></i></li>
+            </ul>
+        </nav>
+        <!-- nav end -->
+        <!-- man section -->
+        <main class="row">
+            <!-- featured stories / 1st column -->
+            <div class="feature col-md-5 col-lg-3">
+                <h3>Featured stories</h3>
+                <!-- card 1 -->
+                <div class="card">
+                    <img src="Bootstrap/assets/featured-1.jpg" alt="img1" class="card-img-top">
+                    <div class="card-block">
+                        <h4 class="card-title font-weight-bolder underline-red">
+                            Trump still faces dozens of lawsuits, investigations after impeachment
+                        </h4>
+                        <p class="card-text">
+                            Earlier this week, the attorney general of the District of Columbia sued
+                            Trump's inaugural committee for abusing nonprofit funds
+                        </p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card">
+                    <img src="" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
 
+                    </h4>
+                    <p class="card-text">
 
+                    </p>
+                </div>
+                <!-- card 3 -->
+                <div class="card">
+                    <img src="" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
+
+                    </h4>
+                    <p class="card-text">
+
+                    </p>
+                </div>
+                <!-- card 4 -->
+                <div class="card">
+                    <img src="" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
+
+                    </h4>
+                    <p class="card-text">
+
+                    </p>
+                </div>
+            </div>
+            <!-- column 2 -->
+            <div class="column2 col-md-7 col-lg-5">
+                <!-- top story -->
+                <h3>top story</h3>
+                <div class="card top-story">
+                    <img src="Bootstrap/assets/top-story-1.jpg" alt="img2" class="card-img-top">
+                    <div class="card-block">
+                        <h4 class="card-title font-weight-bolder">
+                            Recording Reportedly Shows Trump Ordering Removal of Ukraine Ambassador
+                        </h4>
+                        <p class="card-text">Marie Yovanovitch, the former ambassador to Ukraine, was eventually removed
+                            in April 2019 in a sprawling scandal that has engulfed the Trump administration. </p>
+                    </div>
+                </div>
+                <!-- column 2 50-50 cards -->
+                <div class="container">
+                    <div class="card w-40">
+                        <img src="Bootstrap/assets/culture-1.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title font-weight-bolder">
+                            These Abandoned Italian Hill Towns Are Being Resurrected
+                        </h4>
+                        <p class="card-text">
+                            Some of Italy's abundant ghost towns are getting a second chance thanks to artists and
+                            refugees
+                            breathing new life into these medieval villages.
+                        </p>
+                    </div>
+                    <div class="card w-40">
+                        <img src="Bootstrap/assets/culture-2.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title font-weight-bolder">
+                            How to Hack Your Way to a Better Flight in Basic Economy
+                        </h4>
+                        <p class="card-text">
+                            Is it possible to get the cheapest fare and still enjoy a long flight in the not-so-friendly
+                            skies of Basic Economy? We talk to a few airline experts to find out.
+                        </p>
+                    </div>
+                    <div class="card w-40">
+                        <img src="Bootstrap/assets/culture-3.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title font-weight-bolder">
+                            Active Volcanoes Around the World That Could Erupt at Any Moment
+                        </h4>
+                        <p class="card-text">
+                            Despite the dangers, tourists continue to flock to these volatile places for incredible
+                            views
+                            and to take a peek at Mother Nature's temperamental hotspots.
+                        </p>
+                    </div>
+                    <div class="card w-40">
+                        <img src="Bootstrap/assets/culture-4.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title font-weight-bolder">
+                            Women Changemakers of the Last Century
+                        </h4>
+                        <p class="card-text">
+                            In honor of the 100th anniversary of the passing of the 19th Amendment, which guaranteed
+                            women's
+                            right to vote in the U.S., we look at other impressive female advancements over the past 100
+                            years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
