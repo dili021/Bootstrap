@@ -34,6 +34,10 @@ main h3 {
     font-size: 1em;
 }
 
+.w-50 {
+    background-color: rgb(252, 244, 244);
+}
+
 .logo {
     width: 100%;
     height: 70px;
@@ -55,3 +59,17 @@ nav li a:hover {
 .fa-search {
     transform: translateX(-22px);
 }
+
+.column3 > *,
+.latest-news > .row {
+    border-bottom: 1px solid rgb(226, 223, 223);
+}
+.latest-news img {
+    height: 70px;
+}
+
+.more-stories img {
+    height: 80px;
+    width: 100px;
+}
+
