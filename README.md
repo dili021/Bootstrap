@@ -1,12 +1,11 @@
-> Newsweek clone with Bootstrap 4.0
+> Newsweek clone (Bootstrap exercise)
 
 ![screenshot](assets/screenshot.png)
 
-Subtitle
 
 # Built With
 
-- HTML5, CSS3, Bootstrap
+- HTML5, CSS3, Bootstrap 4.0
 - VSCode, Linters, Stylelint, Validator.w3
 
 # Live Demo
@@ -49,15 +48,13 @@ Clone or fork this repo and play around with it as you wish
 👤 **Author**
 Stefan Dili
 
-- Github: [@githubhandle](https://github.com/dili021)
-- Twitter: [@twitterhandle](@dilistefan)
-- Linkedin: [linkedin](stefan-dili)
+- Github: [@github](https://github.com/dili021)
+- Twitter: [@twitter](https://twitter.com/dilistefan)
+- Linkedin: [@linkedin](https://linkedin.com/in/stefan-dili)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page]().
 
 ## Show your support
 
