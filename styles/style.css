@@ -36,7 +36,6 @@ nav input {
 footer li {
     padding: 3px 6px;
     word-wrap: none;
-    border-right:1px solid rgb(184, 180, 180);
     color: rgb(129, 129, 129);
 }
 
@@ -98,6 +97,15 @@ nav li a:hover {
 
 .more-stories {
     height: 450px;
+}
+@media(max-width:767px){
+    .more-stories {
+        height:100%;
+        order: 2;
+    }
+    .culture-travel {
+        order: 3;
+    }
 }
 .red {
     color: red;
