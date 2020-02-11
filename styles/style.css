@@ -1,123 +1,129 @@
 body {
-    line-height: 1.2em;;
+  line-height: 1.2em;
 }
 
 header {
-    background-color: red;
+  background-color: red;
 }
 
 .subscribe {
-    background: white;
-    color: red
+  background: white;
+  color: red;
 }
+
 .sign-in {
-    color: white;
+  color: white;
 }
 
 .fa-bars {
-    color: rgb(250, 171, 171);
-}
-.date {
-    color: white;
+  color: rgb(250, 171, 171);
 }
 
-ul  {
-    list-style: none;
+.date {
+  color: white;
+}
+
+ul {
+  list-style: none;
 }
 
 i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 nav input {
-    width: 80%;
+  width: 80%;
 }
 
 footer li {
-    padding: 3px 6px;
-    word-wrap: none;
-    color: rgb(129, 129, 129);
+  padding: 3px 6px;
+  word-wrap: none;
+  color: rgb(129, 129, 129);
 }
 
 footer li:hover {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
 
 .header-logo {
-    min-width: 130px;
+  min-width: 130px;
 }
+
 .card {
-    border: none;
+  border: none;
 }
 
 main h3 {
-    color: gray;
-    text-transform: uppercase;
-    font-size: 1em;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1em;
 }
 
 .w-50 {
-    background-color: rgb(252, 244, 244);
+  background-color: rgb(252, 244, 244);
 }
 
 .logo {
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 }
 
 nav li a {
-    color: black;
-    border-right: 1px solid gray;
+  color: black;
+  border-right: 1px solid gray;
 }
 
 nav li a:hover {
-    color: red;
+  color: red;
 }
 
 .card-text {
-    color: gray;
+  color: gray;
 }
 
 .fa-search {
-    transform: translateX(-22px);
+  transform: translateX(-22px);
 }
 
 .column3 > *,
 .latest-news > .row {
-    border-bottom: 1px solid rgb(226, 223, 223);
+  border-bottom: 1px solid rgb(226, 223, 223);
 }
+
 .offset-column img {
-    height: 100px;
+  height: 100px;
 }
 
 .subs-news img {
-    min-width: 150px;
-} 
+  min-width: 150px;
+}
 
 .more-stories {
-    height: 450px;
+  height: 450px;
 }
-@media(max-width:767px){
-    .more-stories {
-        height:100%;
-        order: 2;
-    }
-    .culture-travel {
-        order: 3;
-    }
+
+@media (max-width: 767px) {
+  .more-stories {
+    height: 100%;
+    order: 2;
+  }
+
+  .culture-travel {
+    order: 3;
+  }
 }
+
 .red {
-    color: red;
+  color: red;
 }
 
 .red-bg {
-    background: red;
-    color: white;
-    padding: 7px;
+  background: red;
+  color: white;
+  padding: 7px;
 }
 
 .card-more-stories h5 {
-    font-size: 1rem;;
+  font-size: 1rem;
 }
-

@@ -1,12 +1,12 @@
-> Title here
+> Newsweek clone with Bootstrap 4.0
 
-![screenshot]()
+![screenshot](assets/screenshot.png)
 
 Subtitle
 
 # Built With
 
-- HTML5 and CSS3
+- HTML5, CSS3, Bootstrap
 - VSCode, Linters, Stylelint, Validator.w3
 
 # Live Demo
