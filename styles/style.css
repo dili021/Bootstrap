@@ -17,10 +17,16 @@ header {
     color: white;
 }
 
-.navbar  {
+ul  {
     list-style: none;
 }
 
+footer li {
+    padding: 3px 6px;
+    word-wrap: none;
+    border-right:1px solid rgb(184, 180, 180);
+    color: rgb(129, 129, 129);
+}
 .header-logo {
     min-width: 130px;
 }
@@ -67,7 +73,10 @@ nav li a:hover {
 .offset-column img {
     height: 100px;
 }
- 
+
+.subs-news img {
+    min-width: 150px;
+} 
 
 .more-stories {
     height: 450px;
