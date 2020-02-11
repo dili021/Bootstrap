@@ -1,3 +1,7 @@
+body {
+    line-height: 1.2em;;
+}
+
 header {
     background-color: red;
 }
@@ -21,12 +25,26 @@ ul  {
     list-style: none;
 }
 
+i:hover {
+    cursor: pointer;
+}
+
+nav input {
+    width: 80%;
+}
+
 footer li {
     padding: 3px 6px;
     word-wrap: none;
     border-right:1px solid rgb(184, 180, 180);
     color: rgb(129, 129, 129);
 }
+
+footer li:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .header-logo {
     min-width: 130px;
 }
