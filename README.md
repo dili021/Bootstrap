@@ -49,7 +49,9 @@ Clone or fork this repo and play around with it as you wish
 Stefan Dili
 
 [@github](https://github.com/dili021)
+
 [@twitter](https://twitter.com/dilistefan)
+
 [@linkedin](https://linkedin.com/in/stefan-dili)
 
 ## 🤝 Contributing
