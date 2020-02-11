@@ -64,12 +64,25 @@ nav li a:hover {
 .latest-news > .row {
     border-bottom: 1px solid rgb(226, 223, 223);
 }
-.latest-news img {
-    height: 70px;
+.offset-column img {
+    height: 100px;
+}
+ 
+
+.more-stories {
+    height: 450px;
+}
+.red {
+    color: red;
 }
 
-.more-stories img {
-    height: 80px;
-    width: 100px;
+.red-bg {
+    background: red;
+    color: white;
+    padding: 7px;
+}
+
+.card-more-stories h5 {
+    font-size: 1rem;;
 }
 
