@@ -5,7 +5,9 @@ body {
 header {
   background-color: red;
 }
-
+header a {
+  font-size: .7em;
+}
 .subscribe {
   background: white;
   color: red;
@@ -102,7 +104,13 @@ nav li a:hover {
 .more-stories {
   height: 450px;
 }
-
+/* @media (min-width: 992px) {
+.feature,
+.column3 {
+  position: sticky;
+  top: 0;
+}
+} */
 @media (max-width: 767px) {
   .more-stories {
     height: 100%;
