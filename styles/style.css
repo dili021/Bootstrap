@@ -12,7 +12,14 @@ header a {
   background: white;
   color: red;
 }
-
+.newsweek-img {
+  height: 180px;
+  width: auto;
+}
+.newsletter-img {
+  width: auto;
+  height: 180px;
+}
 .sign-in {
   color: white;
 }
