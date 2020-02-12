@@ -5,21 +5,26 @@ body {
 header {
   background-color: red;
 }
+
 header a {
-  font-size: .7em;
+  font-size: 0.7em;
 }
+
 .subscribe {
   background: white;
   color: red;
 }
+
 .newsweek-img {
   height: 180px;
   width: auto;
 }
+
 .newsletter-img {
   width: auto;
   height: 180px;
 }
+
 .sign-in {
   color: white;
 }
@@ -111,6 +116,7 @@ nav li a:hover {
 .more-stories {
   height: 450px;
 }
+
 /* @media (min-width: 992px) {
 .feature,
 .column3 {
