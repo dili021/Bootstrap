@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/f02bbd63cf.js" crossorigin="anonymous"></script>
+    <title>Newsweek clone</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- header -->
+        <header class="row justify-content-between">
+            <div class="col-2 date p-2 d-none align-content-end d-lg-block">Mon, Feb 10, 2020
+            </div>
+            <div class="header-logo col-2 col-sm-4 col-md-5 p-0">
+                <img class="logo" src="assets/newsweek-logo.png" alt="logo">
+            </div>
+            <div
+                class="col-7 col-sm-5 col-md-4 col-xl-4 row m-0 p-2 flex-nowrap align-items-end justify-content-between justify-self-end">
+                <a class="sign-in text-center p-0 font-weight-bold col-5 col-md-4" href="#">
+                    SIGN IN
+                </a>
+                <a class="subscribe text-center d-flex flex-nowrap px-1" href="#">
+                    SUBSCRIBE<i class="fas pl-2 fa-chevron-right"></i>
+                </a>
+                <i class="fas fa-bars d-lg-none px-1"></i>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- nav -->
+        <nav class="py-2 d-none d-lg-block p-0">
+            <ul class="navbar flex-nowrap pl-0 jc-b font-weight-bold">
+                <li><a class="text-nowrap px-1" href="#">U.S.</a></li>
+                <li><a class="text-nowrap px-1" href="#">World</a></li>
+                <li><a class="text-nowrap px-1" href="#">Business</a></li>
+                <li><a class="text-nowrap px-1" href="#">Tech & Science</a></li>
+                <li><a class="text-nowrap px-1" href="#">Culture</a></li>
+                <li><a class="text-nowrap px-1" href="#">Newsgeek</a></li>
+                <li><a class="text-nowrap px-1" href="#">Sports</a></li>
+                <li><a class="text-nowrap px-1" href="#">Health</a></li>
+                <li><a class="text-nowrap px-1" href="#">The Debate</a></li>
+                <li><a class="text-nowrap px-1" href="#">Vantage</a></li>
+                <li><a class="text-nowrap px-1" href="#">Weather</a></li>
+                <li class="text-nowrap pl-1 search-box"><input type="text"><i class="fas fa-search"></i></li>
+            </ul>
+        </nav>
+        <!-- nav end -->
+        <!-- main section -->
+        <main class="row p-0 mx-0 my-2">
+            <!-- featured stories / 1st column -->
+            <div class="feature px-0 pr-md-4 col-md-5 col-lg-3">
+                <h3>Featured stories</h3>
+                <!-- card 1 -->
+                <div class="card mb-2">
+                    <img src="assets/featured-1.jpg" alt="img1" class="card-img-top">
+                    <div class="card-block">
+                        <h4 class="card-title font-weight-bolder underline-red">
+                            Trump still faces dozens of lawsuits, investigations after impeachment
+                        </h4>
+                        <p class="card-text px-1">
+                            Earlier this week, the attorney general of the District of Columbia sued
+                            Trump's inaugural committee for abusing nonprofit funds
+                        </p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card mb-2">
+                    <img src="assets/featured-2.jpg" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
+                        Iran and Saudi Arabia Express Potential for Talks Amid Middle East Tensions
+                    </h4>
+                    <p class="card-text px-1">
+                        Saudi Arabia's foreign minister said Riyadh would talk if Iran accepts it "cannot further its
+                        regional agenda through violence," while Iran's own top diplomat said Tehran "remains open to
+                        dialogue with its neighbors."
+                    </p>
+                </div>
+                <!-- card 3 -->
+                <div class="card mb-2">
+                    <img src="assets/featured-3.jpg" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
+                        Coronavirus Outbreak Update: Patients Tested in California and Texas
+                    </h4>
+                    <p class="card-text px-1">
+                        Health officials in Texas and California are testing patients for the coronavirus, after people
+                        returned from Wuhan, China, with respiratory symptoms.
+                    </p>
+                </div>
+                <!-- card 4 -->
+                <div class="card mb-2">
+                    <img src="assets/featured-4.jpg" alt="img" class="card-img-top">
+                    <h4 class="card-title font-weight-bolder underline-red">
+                        #AdamSchiffHasMyRespect Trends After Closing Speech Goes Viral
+                    </h4>
+                    <p class="card-text px-1">
+                        The California Democrat urged Republican colleagues in the Senate to have the "moral courage" to
+                        go against their party and remove Donald Trump from office.
+                    </p>
+                </div>
+            </div>
+            <!-- column 2 -->
+            <div class="column2 order-first px-0 order-md-0 d-flex flex-column col-md-7 col-lg-5">
+                <!-- top story -->
+                <h3>top story</h3>
+                <div class="card top-story">
+                    <img src="assets/top-story-1.jpg" alt="img2" class="card-img-top">
+                    <div class="card-block">
+                        <h4 class="card-title font-weight-bolder">
+                            Recording Reportedly Shows Trump Ordering Removal of Ukraine Ambassador
+                        </h4>
+                        <p class="card-text">Marie Yovanovitch, the former ambassador to Ukraine, was eventually removed
+                            in April 2019 in a sprawling scandal that has engulfed the Trump administration. </p>
+                    </div>
+                </div>
+                <!-- column 2 50-50 cards -->
+                <div class="culture-travel row bg-light flex-sm flex-wrap py-3 px-0">
+                    <h3 class="culture px-3 w-100">
+                        Culture & Travel
+                    </h3>
+                    <!-- card 1 -->
+                    <div class="card col-12 col-md-6 p-1">
+                        <img src="assets/culture-1.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title px-2 pt-3 font-weight-bolder">
+                            These Abandoned Italian Hill Towns Are Being Resurrected
+                        </h4>
+                        <p class="card-text mb-2 px-2">
+                            Some of Italy's abundant ghost towns are getting a second chance thanks to artists and
+                            refugees
+                            breathing new life into these medieval villages.
+                        </p>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card col-12 col-md-6 p-1">
+                        <img src="assets/culture-2.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title px-2 pt-3 font-weight-bolder">
+                            How to Hack Your Way to a Better Flight in Basic Economy
+                        </h4>
+                        <p class="card-text mb-2 px-2">
+                            Is it possible to get the cheapest fare and still enjoy a long flight in the
+                            not-so-friendly
+                            skies of Basic Economy? We talk to a few airline experts to find out.
+                        </p>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card col-12 col-md-6 p-1">
+                        <img src="assets/culture-3.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title px-2 pt-3 font-weight-bolder">
+                            Active Volcanoes Around the World That Could Erupt at Any Moment
+                        </h4>
+                        <p class="card-text mb-2 px-2">
+                            Despite the dangers, tourists continue to flock to these volatile places for incredible
+                            views
+                            and to take a peek at Mother Nature's temperamental hotspots.
+                        </p>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card col-12 col-md-6 p-1">
+                        <img src="assets/culture-4.jpg" alt="img" class="card-img-top">
+                        <h4 class="card-title px-2 pt-3 font-weight-bolder">
+                            Women Changemakers of the Last Century
+                        </h4>
+                        <p class="card-text mb-2 px-2">
+                            In honor of the 100th anniversary of the passing of the 19th Amendment, which guaranteed
+                            women's
+                            right to vote in the U.S., we look at other impressive female advancements over the past
+                            100
+                            years.
+                        </p>
+                    </div>
+                </div>
+                <!-- more stories -->
+                <div class="more-stories mt-3 mx-0 px-0 overflow-auto">
+                    <h3 class="more-stories-header my-2 py-2 border-bottom font-weight-bold">
+                        More stories
+                    </h3>
+                    <!-- cards -->
+                    <div class="card-more-stories">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-more-stories p-1">
+                        <div class="row">
+                            <div class="col-4 p-0">
+                                <img src="assets/more-1.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body pt-0 col-8">
+                                <h5 class="card-title font-weight-bold">
+                                    Anti-Semitism Worse Now Than in Hitler's Rise: Anti-Nazi Diarist's Grandson
+                                </h5>
+                                <p class="card-text">
+                                    The diaries of Friedrich Kellner were translated and published by his grandson
+                                    Robert Scott Kellner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- opinions / column 3 -->
+            <div class="column3 mt-3 mt-lg-0 px-0 pl-lg-5 col-lg-4">
+                <h3 class="Opinions-header">
+                    Opinions
+                </h3>
+                <!-- card 1 -->
+                <div class="card mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-1.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                Time for Europe and U.S. to Face China's Global Threat-Together
+                            </h5>
+                            <p class="card-text">
+                                BY DR HEISENBERG
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-2.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                Americans Mistrust Church, Government and Big Money. Is a New Power Rising?
+                            </h5>
+                            <p class="card-text">
+                                BY SHARON BLOCK AND BENJAMIN SACHS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-3.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                Why Anti-Trump Zealots Won't Stop Me Defending
+                            </h5>
+                            <p class="card-text">
+                                BY ALAN DERSHOWITZ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-4.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                A Surprising Solution to Save American Democracy
+                            </h5>
+                            <p class="card-text">
+                                BY HEATHER THOMPSON DAY
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-5.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                We Impeached Trump for Gross Abuses of Power. What About the Davos Elite?
+                            </h5>
+                            <p class="card-text">
+                                BY ROBERT REICH
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  mb-1">
+                    <div class="row">
+                        <div class="col-2 col-sm-1 col-lg-2 p-0 pl-xl-4 pl-lg-0 pl-md-3">
+                            <img src="assets/opinion-6.png" alt="" class="card-img pl-1">
+                        </div>
+                        <div class="card-body pt-0 col-9 col-sm-10">
+                            <h5 class="card-title font-weight-bold">
+                                Trump Is Increasingly Damaging to Republicans.
+                            </h5>
+                            <p class="card-text">
+                                BY DOUG GORDON
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- latest news section -->
+                <div class="latest-news px-0 mt-4 mt-lg-2">
+                    <h3 class="news-header">
+                        Latest news
+                    </h3>
+                    <!-- cards -->
+                    <div class="row news-item my-2 align-items-center my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-1.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            Timeline of Events During the Holocaust, From Hitler's Rise to Nuremberg
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-2.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            Time for Europe and U.S. to Face China's Global Threat-Together
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-3.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            Hula Bowl Showcases Defensive Prowess as All-Star Game Returns
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-4.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            National Chocolate Cake Day: Limited-Time Cakes at Sprinkles, Susie Cakes
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-5.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            Alicia and Lizzo Trends After Artists Pay Tribute to Kobe Bryant at Grammys
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-6.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            24 Memorable Kobe Bryant Quotes and Mamba's Accomplishments
+                        </h5>
+                    </div>
+                    <div class="row news-item my-2">
+                        <div class="col-4 py-0">
+                            <img src="assets/latest-news-7.jpg" alt="" class="card-img">
+                        </div>
+                        <h5 class="card-title col-8">
+                            Kobe Bryant's Daughter Gianna Killed in Helicopter Crash
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+            <!-- magazine -->
+            <div class="block magazine py-5">
+                <h3 class="block-header p-2 font-weight-bold text-dark text-center">
+                    in the magazine
+                </h3>
+                <div class="row m-0">
+                    <!-- card -->
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-3">
+                        <img src="assets/per-kobe-banner.jpg" alt="Kobe" class="card-img-top pb-1">
+                        <div class="cat my-2 font-weight-bold pb-2">
+                            <span class="red-bg">Periscope</span>
+                            <span class="red">Sports</span>
+                        </div>
+                        <h5 class="card-title py-2">
+                            Kobe Briant In Memoriam R.I.P.
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+            <!-- editor's pick -->
+            <div class="block editor py-5">
+                <h3 class="block-header p-2 font-weight-bold text-dark text-center">
+                    editor's pick
+                </h3>
+                <div class="row m-0">
+                    <!-- cards  -->
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 px-0 px-md-1 col-lg-3">
+                        <img src="assets/shark.png" alt="" class="card-img">
+                        <div class="card-body mb-4 p-0">
+                            <h5 class="card-title pt-2">
+                                Tawny Sharks Spotted 'Dancing' as They Wait for Dinner
+                            </h5>
+                            <p class="card-text">
+                                Footage shows 20 sharks as they wait for pipis to emerge from the sea on Torres Strait
+                                beach on Mer Island, Australia.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- featured-slides -->
+            <div class="block featured-slides border-bottom py-5">
+                <h3 class="block-header border-bottom p-2 font-weight-bold text-dark text-center">
+                    featured slides
+                </h3>
+                <div class="row m-0">
+                    <!-- cards -->
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+                    <div class="card px-0 px-md-1 col-md-4">
+                        <img src="assets/volcanoes.png" alt="volcanoes" class="card-img">
+                        <h5 class="card-title text-black font-weight-bolder">
+                            Active volcanoes around the world that could erupt at any moment
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+            <!-- offset blocks -->
+            <div class="block US">
+                <h3 class="block-title text-danger font-weight-bold">
+                    U.S.
+                </h3>
+                <div class="row">
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <!-- column -->
+                    <div class="offset-column mb-2 col-md-4">
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="block US">
+                <h3 class="block-title text-danger font-weight-bold">
+                    U.S.
+                </h3>
+                <div class="row">
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <!-- column -->
+                    <div class="offset-column mb-2 col-md-4">
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="block US border-bottom">
+                <h3 class="block-title text-danger font-weight-bold">
+                    U.S.
+                </h3>
+                <div class="row">
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <div class="card px-2 col-md-4">
+                        <img src="assets/trump.jpg" alt="trump" class="card-img-top">
+                        <h5 class="card-title">
+                            Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                        </h5>
+                    </div>
+                    <!-- column -->
+                    <div class="offset-column mb-2 col-md-4">
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row mb-2 pb-1 border-bottom">
+                                <img src="assets/trump.jpg" alt="trump" class="card-img pl-2 col-5 col-md-6">
+                                <h6 class="card-title col-7 col-md-6">
+                                    Majority of Americans Say Trump's Acquittal Doesn't Clear Him of Wrongdoing
+                                </h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- subscribe & newsletter  -->
+            <div class="row subs-news border-bottom p-4">
+                <div class="card-subscribe col-l fl flex-sm ai-c col-lg-7">
+                    <h3 class="card-title text-danger font-weight-bold">
+                        subscribe
+                    </h3>
+                    <div class="text-center text-md-left d-md-flex col-l bg-light">
+                        <img src="assets/magazines.png" alt="newsweek" class="card-img newsweek-img">
+                        <div class="card-body py-0">
+                            <h5 class="card-title font-weight-bolder text-black">
+                                In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                            </h5>
+                            <p class="card-text">
+                                All Access + Weekly Delivery.
+                                Choose A Membership That's Perfect for You!
+                            </p>
+                            <button class="btn btn-danger font-weight-bold">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-newsletter mt-2 mt-lg-0 col-lg-5">
+                    <h3 class="card-title text-danger font-weight-bold">
+                        NEWSLETTER
+                    </h3>
+                    <div class="text-center text-md-left d-md-flex col-l">
+                        <img src="assets/newsletter.png" alt="newsweek" class="card-img newsletter-img">
+                        <div class="card-body py-0">
+                            <h5 class="card-title font-weight-bolder text-black">
+                                In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                            </h5>
+                            <p class="card-text">
+                                All Access + Weekly Delivery.
+                                Choose A Membership That's Perfect for You!
+                            </p>
+                            <button class="btn btn-danger font-weight-bold">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer  -->
+            <footer class="p-3 row">
+                <div class=" col d-md-flex justify-content-between py-1 ">
+                    <div class="flex-sm ai-fe">
+                        <img src="assets/footer-logo.png" alt="logo" class="footer-logo pl-md-4">
+                        <small>© 2020 Newsweek</small>
+                    </div>
+                    <div class="footer-icons pt-xs-2 pt-sm-0 d-flex ai-fe">
+                        <i class="fab p-2 fa-facebook fa-2x"></i>
+                        <i class="fab p-2 fa-instagram fa-2x"></i>
+                        <i class="fab p-2 fa-twitter fa-2x"></i>
+                        <i class="fab p-2 fa-tumblr fa-2x"></i>
+                        <i class="fab p-2 fa-linkedin fa-2x"></i>
+                    </div>
+                </div>
+                <!-- footer menu  -->
+                <div class="footer-links border-top row m-4">
+                    <div class="d-flex align-items-baseline">
+                        <strong>Editions:</strong>
+                        <ul class="d-flex flex-wrap p-2">
+                            <li>U.S. Edition</li>
+                            <li>日本</li>
+                            <li>Pakistan</li>
+                            <li>Polska</li>
+                            <li>România</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="d-flex flex-wrap">
+                            <li>About Us</li>
+                            <li>Corrections</li>
+                            <li>Contact Us</li>
+                            <li>Editorial Guidelines</li>
+                            <li>Advertise</li>
+                            <li>Copyright</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookie Policy</li>
+                            <li>Terms of Sale</li>
+                            <li>Archive</li>
+                            <li>Announcements</li>
+                            <li>Consent preferences</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
