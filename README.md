@@ -8,10 +8,6 @@
 - HTML5, CSS3, Bootstrap 4.0
 - VSCode, Linters, Stylelint, Validator.w3
 
-# Live Demo
-
-[Live Demo Link](https://focused-hypatia-a75b2d.netlify.com/)
-
 # Getting Started
 
 Clone or fork this repo and play around with it as you wish
